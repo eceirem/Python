@@ -1,0 +1,5 @@
+veri = input()
+x = veri.isalpha()
+y = veri.isalnum()
+print(x)
+print(y)

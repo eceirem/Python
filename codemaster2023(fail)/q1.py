@@ -1,0 +1,16 @@
+# In a garden, there are sections with different types of flowers, each type identified by a unique letter. A new gardener is hired. This gardener can only fertilize same type of flowers that are directly next to each other (bordering each other side-by-side or front-to-back, but not diagonally) in one step. The aim is to figure out the smallest number of steps needed to fertilize all the flowers.
+
+
+
+# You can verify your solution with the example data provided below:
+
+# garden = ["abbca", "aacaa", "aacca"]
+
+
+# Each string represents a row, and each letter symbolizes a different type of flower. The illustration below demonstrates the 5 steps needed to fertilize the whole garden. It requires two steps each for types 'a' and 'c', and one step for type 'b'. The layout of the garden beds is depicted below.
+
+
+
+# Initial Garden Layout:
+
+garden = ['jhtfheqajzuaybfligfcmwfpyhupiijbcjzwnzqhnhgbvfxskwxfztigwejecaefroczrzskfplqvylfjmczfeoxcylixevukywx', 'kozxfqrfayndgfwwscqheytxsnsbwppfxbbxyeutycacqyimgoibjijhekqudobjvshimlyxwbgnbbkmlsyhsugicwbiajhxihsv', 'iiekrvzgyhuodrkaynckplajmleveqodnoandkmijpslogwypanerbuhzaxcanqiuhjxriwzgfakiyiqqesabjdvlbiwbksgnetf', 'jndhebjkdblrbfbyyvxyranrbvnocbjnmquotqjolexdtkdlylhbnwjeiplxutqxlmwnykuoixmbxkcyqewlnpyfmymsbnnrybgw', 'sitlhiwdnvowlctaicdmhzxgnguanjtxcmgdzvzgiqxpizvwkjpsbdpfgdgjowndjrjdqpabfddwrynkhtmcihuknbjrgbkyzsvn', 'duubocqxdqyflhhvvxgzhsokzebzbsdnhzczolmhgqmhqederkoteptapskskepztjfqqntzmbhgikunbpdmgymhztegqdbzsskw', 'pltztvyloxcsklhthtlkrsiimrnhtbnqlqgexhwtiugwsxfojzgoxpchwicitbiemblktruginqzclalmgsutiyvhizwckueaysr', 'gltfezzskjrdkwlxuropngyepaumzxnkytfpsyjbybbfliamlngzoadkkmimgtifaoqmelfbnrvcjlnsirzsrxwemidlyoqnavrz', 'ltwtvazazmwguokdafqkistmzumgygzsxnzgipydubnbikjkilwfdmyennicfmqbjzmodrwziskmaedokhypectohybbfhbtwtpe', 'hlmasomhimjwtugghchcsdwdfdjrfpqaabzdmcqnfxwvtirlownsvmvzjwtbjyevihvyldrpmgigfxxfyxiiqnhijrhcvkdhfhem', 'voszkzdzjzqghbshjcdvedexrtkplawduzacavydluhwirgqhtfhprrvibplafuexwpnovmshqjqfdtwzgypjiroivmweeljffkl', 'zenqljxtfyhtnhfldpzqnaxjufhlykrgyqmqtqpjduyevpbgtenqpdivsnyibjolqmjwowprvddhavxzqqwcbenonuzjzkdyeozv', 'xploslypvgrmetlcomgbkcibpoevqajieumavtfmfbjqrgbvtvusdffcfqwfchcktxzdwzmimiucsgdyaxxbzghgseqfhaortmcs', 'mochtkgbdayplnlkijepcwgirfbngkzrcqbjjvxorcwcgiiuynlzbpewkvyadobdnauidhdtnacswzlgfiechaiewcthwluwzved', 'tnrpfzeajrbljlsxtitethwwlzigpgopcbqciixjznvxonjllooquovuyawvnamzbgkkcvpgokgknnediqwvtozmuktfrhtlrpyf', 'okejcxmrerktjpdfhmcqnkdxpajsnsymdeyryoraouadbkoiztjwzhalkudrpargtomdgazclfirczqfpliiecpnnrgdkpufplib', 'holzggnncersrmymhuytsolwwgktrrghrbrflaqygoipgobtwoobmnvrgukptdllplsrhsnqdsmzjeirhaklstzpfxdevebylmqu', 'jpbtwqfyomxqnojzfwjyhtxznowkimjvmdswhcbowximkfrykitbssnptaxbyuponemwgtrtqkicduvtuayruffvimcozoatvlpr', 'koomowktotfdeqvaiftcswwxepnefiqqcpvwsvvhoqulkrkpvvhdffaowlosdstvpotxnkkcsdwqfokaunecfxjvnjfssshmapgb', 'njjsrtixmqksnbroyyehbrnixpopbactylmuuggulzujeglsaquouxrlvebqbstiubwgeemhqerlrguigqtnvtyslhlxmxjmggac']

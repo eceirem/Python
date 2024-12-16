@@ -1,4 +1,4 @@
-row = int(input())
+row = 5
 for i in range(row):
     for j in range(i,row):
         print(" ", end="")

@@ -1,4 +1,4 @@
-#elimde bir liste var ve bu listeyi öyle bir yerden ayıracağım ki ayırdığım yerden ikiye bölünen taraafların toplamı eşit olacak
+#elimde bir liste var ve bu listeyi öyle bir yerden ayıracağım ki ayırdığım yerden ikiye bölünen tarafların toplamı eşit olacak
 
 def separateList(liste):
     for i in range(len(liste)):

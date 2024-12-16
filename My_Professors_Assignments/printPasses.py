@@ -18,5 +18,5 @@ def Is_Pass(dic):
 
     return names
 
-dic = {"Ece": ["5/5", "3/3", "2/2"],"Doğukan": ["8/8", "2/2"]}
+dic = {"Ece": ["5/5", "3/3", "2/2"],"Ege": ["8/8", "2/2"]}
 print(Is_Pass(dic))
